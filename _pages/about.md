@@ -2,7 +2,7 @@
 layout: about
 title: about
 permalink: /
-subtitle: 
+subtitle:
 
 profile:
   align: right
@@ -23,6 +23,7 @@ latest_posts:
   scrollable: true # adds a vertical scroll bar if there are more than 3 new posts items
   limit: 3 # leave blank to include all the blog posts
 ---
+
 I'm a first-year Ph.D. student in the Department of Computer Science at the University of Maryland, advised by [Prof. Christopher Metzler](https://www.cs.umd.edu/~metzler/) and [Prof. Jia-Bin Huang](https://jbhuang0604.github.io/). I received my bachelor's degree from National Taiwan University, where I was advised by [Prof. Homer Chen](https://www.ee.ntu.edu.tw/bio1.php?id=60) and [Prof. Yu-Chiang Wang](https://vllab.ee.ntu.edu.tw/ycwang.html).
 
 My research interests lie in computational photography and 3D computer vision. I aim to explore how integrating computer vision techniques with optics can advance realistic visual experiences.
