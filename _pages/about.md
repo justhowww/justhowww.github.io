@@ -10,7 +10,7 @@ profile:
   image_circular: false # crops the image to make it circular
   more_info:
 
-selected_papers: false # includes a list of papers marked as "selected={true}"
+selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true # includes social icons at the bottom of the page
 
 announcements:
@@ -26,4 +26,4 @@ latest_posts:
 
 I'm a first-year Ph.D. student in the Department of Computer Science at the University of Maryland, advised by [Prof. Christopher Metzler](https://www.cs.umd.edu/~metzler/) and [Prof. Jia-Bin Huang](https://jbhuang0604.github.io/). I received my bachelor's degree from National Taiwan University, where I was advised by [Prof. Homer Chen](https://www.ee.ntu.edu.tw/bio1.php?id=60) and [Prof. Yu-Chiang Wang](https://vllab.ee.ntu.edu.tw/ycwang.html).
 
-My research interests lie in computational photography and 3D computer vision. I aim to explore how integrating computer vision techniques with optics can advance realistic visual experiences.
+I'm broadly interested in computer vision, computational imaging, and generative models, particularly in how better sensing can make visual problems more observable and how generative models can provide powerful priors for reliable visual reconstruction.

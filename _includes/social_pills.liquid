@@ -1,0 +1,12 @@
+<div class="social-pills">
+  <a href="{{ '/cv/' | relative_url }}"><i class="fa-solid fa-file-lines"></i> CV</a>
+  {% if site.data.socials.scholar_userid %}
+    <a href="https://scholar.google.com/citations?user={{ site.data.socials.scholar_userid }}"><i class="fa-brands fa-google"></i> Google Scholar</a>
+  {% endif %}
+  {% if site.data.socials.linkedin_username %}
+    <a href="https://www.linkedin.com/in/{{ site.data.socials.linkedin_username }}"><i class="fa-brands fa-linkedin-in"></i> LinkedIn</a>
+  {% endif %}
+  {% if site.data.socials.email %}
+    <a href="mailto:{{ site.data.socials.email | encode_email }}"><i class="fa-solid fa-envelope"></i> Email</a>
+  {% endif %}
+</div>
