@@ -4,6 +4,22 @@
 
 // Typography
 
+body,
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+em,
+div,
+li,
+span,
+strong {
+  font-family: "Lora", serif;
+}
+
 p,
 h1,
 h2,
@@ -21,6 +37,14 @@ strong {
 
 hr {
   border-top: 1px solid var(--global-divider-color);
+}
+
+.section-divider {
+  margin: 1.5rem 0 1.5rem;
+  border: 0;
+  height: 1px;
+  background: linear-gradient(to right, transparent, var(--global-theme-color) 50%, transparent);
+  opacity: 0.5;
 }
 
 table {
@@ -269,6 +293,7 @@ ul.task-list input[type="checkbox"] {
 
 .dropdown-item {
   color: var(--global-text-color);
+  text-transform: capitalize;
 
   &:hover {
     color: var(--global-hover-color);
@@ -289,6 +314,7 @@ ul.task-list input[type="checkbox"] {
 
   .navbar-nav .nav-item .nav-link {
     color: var(--global-text-color);
+    text-transform: capitalize;
 
     &:hover {
       color: var(--global-hover-color);
@@ -604,6 +630,8 @@ footer.sticky-bottom {
 }
 
 .post-title {
+  text-transform: capitalize;
+
   mjx-container[jax="CHTML"][display="true"] {
     display: unset;
   }
@@ -779,6 +807,28 @@ footer.sticky-bottom {
             &:hover {
               text-decoration: none;
             }
+          }
+        }
+
+        // ribbon over the bottom-right corner of the preview
+        &:has(.preview) {
+          position: relative;
+          align-self: flex-start; // don't stretch to the height of the text column, or bottom: 0 below lands past the image
+
+          figure {
+            margin: 0;
+          }
+
+          abbr {
+            position: absolute;
+            right: 15px;
+            bottom: 0;
+            z-index: 1;
+            width: auto !important;
+            margin: 0;
+            padding: 0.25rem 0.6rem;
+            border-radius: 0.5rem 0 0.25rem 0 !important;
+            font-size: 0.7rem;
           }
         }
 
